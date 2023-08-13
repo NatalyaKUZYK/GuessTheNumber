@@ -19,7 +19,6 @@ public class GuessTheNumber {
                 break;
             }else if (attempt == 3){
                 System.out.println("GAME OVER! Ви не вгадали загадане число: " + randomNumber);
-               // break;
             } else {
                 System.out.println("Ви не вгадали число спробуйте ще раз:" + randomNumber);
             }
